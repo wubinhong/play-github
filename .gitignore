@@ -15,3 +15,7 @@ server.pid
 *.eml
 /dist/
 .cache
+
+# Igonre Intellij configure file
+*.iml
+*.ipr
