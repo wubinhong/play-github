@@ -2,3 +2,12 @@
 
 require:
     - play
+    - api -> api
+
+repositories:
+    - biz modules:
+        type:       local
+        artifact:   ${application.path}/../[module]
+        contains:
+          - api
+
