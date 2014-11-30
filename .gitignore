@@ -17,5 +17,6 @@ server.pid
 .cache
 
 # Igonre Intellij configure file
+.idea
 *.iml
 *.ipr
